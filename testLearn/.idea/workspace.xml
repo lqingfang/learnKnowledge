@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="617cd258-5ee6-4658-be9c-75804e261c55" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lqf/learn/threadLocalKnowlege/threadVariableContainer/ClientThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/lqf/learn/threadLocalKnowlege/threadVariableContainer/ClientThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnNotes/smartFrameWork/chapter2.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/learnNotes/smartFrameWork/chapter2.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -212,7 +212,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="25" />
     <option name="y" value="318" />
     <option name="width" value="1440" />
@@ -238,28 +238,13 @@
             <path>
               <item name="testLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="testLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learnNotes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="testLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="learnNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="smartFrameWork" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,7 +255,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549893164988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549893314608" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/lqf/learn/designModel/factoryModel" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -465,7 +450,7 @@
       <workItem from="1549603106340" duration="21527000" />
       <workItem from="1549688967574" duration="18110000" />
       <workItem from="1549891023693" duration="18000" />
-      <workItem from="1549892746322" duration="327000" />
+      <workItem from="1549892746322" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="test git push">
       <created>1549892955966</created>
@@ -474,14 +459,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549892955966</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="push note test">
+      <created>1549893287244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549893287244</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107040000" />
+    <option name="totallyTimeSpent" value="107332000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="814" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="816" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20243205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -492,7 +484,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3504155" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34944752" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38919666" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -550,7 +542,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test git push" />
-    <option name="LAST_COMMIT_MESSAGE" value="test git push" />
+    <MESSAGE value="push note test" />
+    <option name="LAST_COMMIT_MESSAGE" value="push note test" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -893,10 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
