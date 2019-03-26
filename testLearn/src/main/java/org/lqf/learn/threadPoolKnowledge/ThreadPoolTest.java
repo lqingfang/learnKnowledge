@@ -21,6 +21,10 @@ public class ThreadPoolTest implements Runnable {
     }
 
     public void run() {
-        System.out.println("000000000000");
+        try {
+            Thread.sleep(300);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
