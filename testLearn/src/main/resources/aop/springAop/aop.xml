@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.2.xsd">
+
+    <bean id="helloWorldImpl" class="org.lqf.learn.springAop.springAop.HelloWorldImpl"/>
+    <bean id="helloWorldImpl02" class="org.lqf.learn.springAop.springAop.HelloWorldImpl02"/>
+    <bean id="timeHandler" class="org.lqf.learn.springAop.springAop.TimeHandler"/>
+
+    <aop:config>
+        <aop:aspect id="time" ref="timeHandler">
+            <aop:pointcut id="allMethod" expression="execution(* org.lqf.learn.springAop.springAop.*(..))" />
+            <aop:before method="printTime" pointcut-ref="allMethod" />
+            <aop:after method="printTime" pointcut-ref="allMethod" />
+        </aop:aspect>
+    </aop:config>
+
+</beans>

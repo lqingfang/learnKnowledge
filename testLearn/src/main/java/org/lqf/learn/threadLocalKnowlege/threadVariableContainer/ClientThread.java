@@ -1,6 +1,6 @@
 package org.lqf.learn.threadLocalKnowlege.threadVariableContainer;
 
-public class ClientThread extends Thread {
+public class  ClientThread extends Thread {
     private Sequence sequence;
 
     public ClientThread(Sequence sequence) {
