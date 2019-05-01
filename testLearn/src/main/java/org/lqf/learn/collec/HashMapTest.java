@@ -12,5 +12,6 @@ public class HashMapTest {
         map.put("3","d");
         map.put("3","w");
         map.put("2","p");
+        System.out.println(map);
     }
 }
