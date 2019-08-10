@@ -2,7 +2,7 @@ package org.lqf.learn.algorithm.sort.selectSort;
 
 
 import org.lqf.learn.algorithm.sort.PrintArray;
-
+//类似于直接插入，不同的是，每次将指针指向最小的一个
 public class SimpleSelectSort {
     private static PrintArray p = new PrintArray();
     public static void main(String[] args) {
