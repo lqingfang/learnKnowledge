@@ -1,13 +1,12 @@
 package org.lqf.learn.algorithm.sort.exchangeSort;
 
-
-import org.lqf.learn.algorithm.sort.PrintArray;
+import java.util.Arrays;
 
 public class BubbleSort {
-    private static PrintArray p = new PrintArray();
     public static void main(String[] args) {
         int a[] = {51,49,46,7,15,36,17,35,90,22,4,6};
         sort(a);
+        System.out.println(Arrays.toString(a));
     }
     public static void sort(int[] a){
         //i第一次为最大，这样，第一次排序下来，最后一个肯定是最大或者最小
@@ -23,7 +22,6 @@ public class BubbleSort {
                 }
             }
             if(!flag) break;
-            p.printArray(a);
         }
     }
 }

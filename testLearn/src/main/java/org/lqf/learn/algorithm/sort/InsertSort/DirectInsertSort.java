@@ -3,11 +3,14 @@ package org.lqf.learn.algorithm.sort.InsertSort;
 
 import org.lqf.learn.algorithm.sort.PrintArray;
 
+import java.util.Arrays;
+
 public class DirectInsertSort {
     private static PrintArray p = new PrintArray();
     public static void main(String[] args) {
         int a[] = {2,1,6,5,9,4,3};
         directSort(a);
+        System.out.println(Arrays.toString(a));
     }
     private static void directSort(int[] a){
         int length = a.length;
@@ -18,8 +21,6 @@ public class DirectInsertSort {
                 a[j+1] = a[j];
             }
             a[j+1] = temp;//j=i-1已经减过一次了
-            p.printArray(a);
-            System.out.println();
         }
     }
 }

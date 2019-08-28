@@ -1,4 +1,4 @@
-package org.lqf.learn.exame;
+package org.lqf.learn.huawei;
 
 import java.util.Arrays;
 import java.util.HashMap;

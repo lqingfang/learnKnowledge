@@ -7,7 +7,8 @@ import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 public class CGLibProxy implements MethodInterceptor {
-
+    public CGLibProxy() {
+    }
 
     public <T> T getProxy(Class<T> cls) {
         return (T)Enhancer.create(cls,this);
@@ -18,9 +19,6 @@ public class CGLibProxy implements MethodInterceptor {
         Object result = methodProxy.invokeSuper(o,args);
         after();
         return result;
-    }
-
-    public CGLibProxy() {
     }
 
     private static CGLibProxy cgLibProxy = new CGLibProxy();
