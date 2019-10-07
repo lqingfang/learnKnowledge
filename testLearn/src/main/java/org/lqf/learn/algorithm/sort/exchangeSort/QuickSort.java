@@ -11,26 +11,34 @@ public class QuickSort {
         System.out.println(Arrays.toString(a));
     }
 
-    public static void sort(int[] a,int i,int il){
-        int mid;
-        int start = i;
-        int end = il;
-        int temp=a[i];
-        while (i<il) {
-            while (i<il && a[il]>temp) {
-                il--;
+    private static void sort(int[] arr,int l,int r) {
+        int start = l;
+        int end = r;
+        int temp = arr[l];
+        while (l<r) {
+            while (l<r && arr[r]>temp) {
+                r--;
             }
-            a[i] = a[il];
-            while (i<il && a[i]<temp) {
-                i++;
+            if(l<r) {
+                arr[l] = arr[r];
+                l++;
             }
-            a[il] = a[i];
+
+            while (l<r && arr[l]<temp){
+                l++;
+            }
+            if(l<r) {
+                arr[r] = arr[l];
+                r--;
+            }
         }
-        a[i] = temp;
-        mid = i;
-        while (start<end) {
-            sort(a,start,mid-1);
-            sort(a,mid+1,end);
+
+        arr[l] = temp;
+        if(start<l){
+            sort(arr,start,l-1);
+        }
+        if(l<end) {
+            sort(arr,l+1,end);
         }
 
     }

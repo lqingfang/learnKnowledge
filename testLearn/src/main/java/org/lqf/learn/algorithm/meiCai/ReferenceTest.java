@@ -1,4 +1,4 @@
-package org.lqf.learn.caiBird;
+package org.lqf.learn.algorithm.meiCai;
 
 //基本类型是值传递，传递的是该变量的一个副本，改变副本不影响原来变量
 public class ReferenceTest {

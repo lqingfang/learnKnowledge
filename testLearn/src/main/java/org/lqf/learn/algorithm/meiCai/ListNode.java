@@ -1,4 +1,4 @@
-package org.lqf.learn.caiBird;
+package org.lqf.learn.algorithm.meiCai;
 
 //删除链表中的指定值的元素
 public class ListNode {
