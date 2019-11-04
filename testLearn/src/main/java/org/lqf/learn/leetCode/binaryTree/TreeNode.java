@@ -1,5 +1,8 @@
 package org.lqf.learn.leetCode.binaryTree;
 
+/*
+687  有点意思
+ */
 public class TreeNode {
     public int val;
     public TreeNode left;
