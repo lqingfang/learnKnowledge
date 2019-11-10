@@ -1,4 +1,4 @@
-package org.lqf.learn.leetCode.searchTree.isValidBST_98;
+package org.lqf.learn.leetCode.searchTree.convertBST_538;
 
 import org.lqf.learn.leetCode.binaryTree.TreeNode;
 
@@ -17,25 +17,17 @@ public class Solution {
         node2.right = node3;
         node5.left = node6;
         node5.right = node7;
-
-//        TreeNode root = new TreeNode(10);
-//        TreeNode node1 = new TreeNode(10);
-//        root.left = node1;
-        System.out.println(isValidBST(root));
+        System.out.println(convertBST(root));
     }
 
-    static double last = -Double.MAX_VALUE;
-    private static boolean isValidBST(TreeNode root) {
-        if(null == root) {
-            return true;
+    static int sum = 0;
+    private static TreeNode convertBST(TreeNode root) {
+        if(null != root) {
+            convertBST(root.right);
+            sum +=root.val;
+            root.val = sum;
+            convertBST(root.left);
         }
-        if(isValidBST(root.left)) {
-            if(last <root.val) {
-                last = root.val;
-                return isValidBST(root.right);
-            }
-        }
-        return false;
+        return root;
     }
-
 }
