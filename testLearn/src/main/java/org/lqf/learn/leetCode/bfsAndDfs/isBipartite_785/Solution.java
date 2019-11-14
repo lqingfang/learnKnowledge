@@ -1,4 +1,4 @@
-package org.lqf.learn.leetCode.bfsAndDfs;
+package org.lqf.learn.leetCode.bfsAndDfs.isBipartite_785;
 
 public class Solution {
     public static void main(String[] args) {
