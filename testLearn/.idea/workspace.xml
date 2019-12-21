@@ -5,22 +5,12 @@
       <change afterPath="$PROJECT_DIR$/../bootlearn/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../clover_source/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-framework" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/cglib_3_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/libraries/cglib_3_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/subsets_78/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../designModel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designModel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smart-framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smart-framework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartframework02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartframework03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework03/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/testLearn.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +21,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/subsets_78/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,8 +47,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ThreadLocal</find>
-      <find>.setDaemon</find>
       <find>extend</find>
       <find>concurr</find>
       <find>Node&lt;</find>
@@ -77,6 +75,8 @@
       <find>ensurePrestart</find>
       <find>JobRun</find>
       <find>schedulerS</find>
+      <find>A.leng</find>
+      <find>A[0]</find>
     </findStrings>
     <dirStrings>
       <dir>$MAVEN_REPOSITORY$/cglib/cglib/3.2.10/cglib-3.2.10.jar</dir>
@@ -88,47 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/hasPathSum_112/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/pathSum_113/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/pathSum_437/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/pathSum_666/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/longestUnivaluePath_687/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/binaryTreePaths_257/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/maxPathSum_124/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/maxPathSum_124/Solution02.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/invertTree_226/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/mergeTrees_617/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/isSubtree_572/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/isSameTree_100/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/isUnivalTree_965/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/leafSimilar_872/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/isSymmetric_101/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/findSecondMinimumValue_671/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/kthSmallest_230/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/averageOfLevels_637/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/levelOrder_102/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/levelOrderBottom_107/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/findBottomLeftValue_513/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/preOrderTraversal_144/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/levelOrder_429/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/postorder_590/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/postorder_590/Solution02.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/State.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/verticalTraversal_987/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/serialize_297/Codec.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/lowestCommonAncestor_236/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/lowestCommonAncestor_235/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/pruneTree_814/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/findMode_501/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/getMinimumDifference_530/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/isValidBST_98/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/convertBST_538/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/convertBST_538/Solution02.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/findTarget_653/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/sortedArrayToBST_108/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/sortedListToBST_109/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/searchBST_700/Solution.java" />
@@ -139,6 +98,47 @@
         <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/trie/TrieNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/trie/Trie.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/trie/a" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/trie_208/mapSum_677/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/isBipartite_785/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/cloneGraph_133/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/climbStairs_70/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/climbStairs_70/Solution02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/minimumTotal_120/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/maxProduct_152/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/largestIsland_827/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/maxSumDivThree_5265/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/numSquares_279/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/numSquares_279/Solution02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/lengthOfLIS_300/Solution01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/lengthOfLIS_300/Solution02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/openLock_752/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/maxAreaOfIsland_695/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/numIslands_200/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/solve_130/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/findCircleNum_547/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/findCircleNum_547/Solution02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/pacificAtlantic_417/Solution02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/pacificAtlantic_417/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/canVisitAllRooms_841/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/canVisitAllRooms_841/Solution02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/updateMatrix_542/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/shortestBridge_934/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/shortestBridge_934/Solution02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/eventualSafeNodes_802/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/letterCombinations_17/Solution02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/letterCombinations_17/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/generateParenthesis_22/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/generateParenthesis_22/Solution02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/generateParenthesis_22/Solution03.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/removeInvalidParentheses_301/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/letterCasePermutation_784/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/combinationSum_39/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/combinationSum2_40/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/combinationSum3_216/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/addOperators_282/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/subsets_78/Solution.java" />
       </list>
     </option>
   </component>
@@ -166,7 +166,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="488" />
+    <option name="x" value="473" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="814" />
@@ -229,7 +229,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="trie" type="462c0819:PsiDirectoryNode" />
+              <item name="backTrack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testLearn" type="b2602c69:ProjectViewProjectNode" />
@@ -250,7 +250,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573656483462" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576920203428" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/lqf/learn/springAop" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -265,11 +265,11 @@
       <recent name="org.lqf.learn.designModel.observerModel" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.lqf.learn.leetCode.backTrack" />
       <recent name="org.lqf.learn.leetCode.binaryTree" />
       <recent name="org.lqf.learn.leetCode.hash" />
       <recent name="org.lqf.learn.leetCode.binarySearch" />
       <recent name="org.lqf.learn.leetCode.strString" />
-      <recent name="org.lqf.learn.leetCode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/aop/springAop" />
@@ -279,11 +279,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.lqf.learn.leetCode.searchTree.searchBST_700" />
-      <recent name="org.lqf.learn.leetCode.searchTree" />
-      <recent name="org.lqf.learn.leetCode.searchTree.convertBST_538" />
-      <recent name="org.lqf.learn.leetCode.binaryTree.lowestCommonAncestor_235" />
-      <recent name="org.lqf.learn.leetCode.binaryTree.postorder_590" />
+      <recent name="org.lqf.learn.leetCode.bfsAndDfs.letterCombinations_17" />
+      <recent name="org.lqf.learn.leetCode.bfsAndDfs.shortestBridge_934" />
+      <recent name="org.lqf.learn.leetCode.bfsAndDfs.canVisitAllRooms_841" />
+      <recent name="org.lqf.learn.leetCode.bfsAndDfs.pacificAtlantic_417" />
+      <recent name="org.lqf.learn.leetCode.bfsAndDfs.findCircleNum_547" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/lqf/learn/currentPac/jucDay02" />
@@ -305,13 +305,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Trie">
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.searchTree.getMinimumDifference_530.Solution" />
+  <component name="RunManager" selected="Application.Solution (2)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.backTrack.combinationSum2_40.Solution" />
       <module name="testLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.lqf.learn.leetCode.searchTree.getMinimumDifference_530.*" />
+          <option name="PATTERN" value="org.lqf.learn.leetCode.backTrack.combinationSum2_40.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,12 +319,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.searchTree.deleteNode_450.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.backTrack.subsets_78.Solution" />
       <module name="testLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.lqf.learn.leetCode.searchTree.deleteNode_450.*" />
+          <option name="PATTERN" value="org.lqf.learn.leetCode.backTrack.subsets_78.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,11 +333,11 @@
       </method>
     </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.searchTree.isValidBST_98.Solution" />
+      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.backTrack.combinationSum3_216.Solution" />
       <module name="testLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.lqf.learn.leetCode.searchTree.isValidBST_98.*" />
+          <option name="PATTERN" value="org.lqf.learn.leetCode.backTrack.combinationSum3_216.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,11 +346,24 @@
       </method>
     </configuration>
     <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.searchTree.findTarget_653.Solution" />
+      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.backTrack.addOperators_282.Solution" />
       <module name="testLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.lqf.learn.leetCode.searchTree.findTarget_653.*" />
+          <option name="PATTERN" value="org.lqf.learn.leetCode.backTrack.addOperators_282.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.backTrack.combinationSum_39.Solution" />
+      <module name="testLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lqf.learn.leetCode.backTrack.combinationSum_39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,6 +377,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.lqf.learn.leetCode.arrayLearn.removeDuplicate_26.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.bfsAndDfs.pacificAtlantic_417.Solution" />
+      <module name="testLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lqf.learn.leetCode.bfsAndDfs.pacificAtlantic_417.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.bfsAndDfs.letterCombinations_17.Solution" />
+      <module name="testLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lqf.learn.leetCode.bfsAndDfs.letterCombinations_17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -436,33 +475,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.lqf.learn.leetCode.trie_208.Trie" />
-      <module name="testLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.lqf.learn.leetCode.trie_208.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (5)" />
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Trie" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Trie" />
-        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -493,175 +519,7 @@
       <workItem from="1556789629681" duration="9020000" />
       <workItem from="1562861553836" duration="15543000" />
       <workItem from="1565425961386" duration="235000" />
-      <workItem from="1565456432256" duration="235616000" />
-    </task>
-    <task id="LOCAL-00012" summary="线程处理的任务都是利用休眠导致线程没有释放">
-      <created>1553617537764</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1553617537764</updated>
-    </task>
-    <task id="LOCAL-00013" summary="1">
-      <created>1556716585246</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1556716585246</updated>
-    </task>
-    <task id="LOCAL-00014" summary="增加排序算法，&amp;并发，线程">
-      <created>1556791662959</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1556791662959</updated>
-    </task>
-    <task id="LOCAL-00015" summary="LRU  &amp; IOC实现原理，工厂模式加反射机制">
-      <created>1556972739973</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1556972739973</updated>
-    </task>
-    <task id="LOCAL-00016" summary="并发">
-      <created>1563369881808</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1563369881809</updated>
-    </task>
-    <task id="LOCAL-00017" summary="排序算法加注释">
-      <created>1565456488428</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1565456488428</updated>
-    </task>
-    <task id="LOCAL-00018" summary="华为机考题">
-      <created>1566490352777</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1566490352777</updated>
-    </task>
-    <task id="LOCAL-00019" summary="滴滴算法">
-      <created>1567011118275</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1567011118275</updated>
-    </task>
-    <task id="LOCAL-00020" summary="滴滴算法">
-      <created>1567011200619</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1567011200620</updated>
-    </task>
-    <task id="LOCAL-00021" summary="美菜">
-      <created>1567316792595</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1567316792595</updated>
-    </task>
-    <task id="LOCAL-00022" summary="滴滴算法">
-      <created>1567325205696</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1567325205696</updated>
-    </task>
-    <task id="LOCAL-00023" summary="scheduledPoolTest">
-      <created>1567358472859</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1567358472859</updated>
-    </task>
-    <task id="LOCAL-00024" summary="quartZ">
-      <created>1567481066257</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1567481066257</updated>
-    </task>
-    <task id="LOCAL-00025" summary="quartZ">
-      <created>1567481097632</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1567481097632</updated>
-    </task>
-    <task id="LOCAL-00026" summary="数组转二叉树，计算二叉树高度，递归">
-      <created>1567483819315</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1567483819315</updated>
-    </task>
-    <task id="LOCAL-00027" summary="leetcode 数组">
-      <created>1570461060257</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1570461060257</updated>
-    </task>
-    <task id="LOCAL-00028" summary="7道,昨天7道，total -&gt;14">
-      <created>1570554293186</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1570554293186</updated>
-    </task>
-    <task id="LOCAL-00029" summary="leetcode">
-      <created>1571453495001</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1571453495001</updated>
-    </task>
-    <task id="LOCAL-00030" summary="链表">
-      <created>1571565045827</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1571565045827</updated>
-    </task>
-    <task id="LOCAL-00031" summary="链表完成">
-      <created>1571568428457</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1571568428458</updated>
-    </task>
-    <task id="LOCAL-00032" summary="二分查找">
-      <created>1571670772244</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1571670772244</updated>
-    </task>
-    <task id="LOCAL-00033" summary="二分查找">
-      <created>1571926323092</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1571926323092</updated>
-    </task>
-    <task id="LOCAL-00034" summary="搜索旋转排序数组">
-      <created>1572175039734</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1572175039734</updated>
-    </task>
-    <task id="LOCAL-00035" summary="二分查找_寻找峰值">
-      <created>1572177269919</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1572177269919</updated>
+      <workItem from="1565456432256" duration="332075000" />
     </task>
     <task id="LOCAL-00036" summary="栈，完全平方">
       <created>1572362256289</created>
@@ -838,11 +696,179 @@
       <option name="project" value="LOCAL" />
       <updated>1573380687987</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="208字典树，意思对了，测试用例没过，懒得写了，先这样">
+      <created>1573656624930</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1573656624930</updated>
+    </task>
+    <task id="LOCAL-00062" summary="785图不太好理解，理解了7分熟的样仔">
+      <created>1573740734332</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1573740734332</updated>
+    </task>
+    <task id="LOCAL-00063" summary="图133，不太清楚题意，貌似是复制了一张图出来，哈哈">
+      <created>1573743893534</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1573743893534</updated>
+    </task>
+    <task id="LOCAL-00064" summary="70动态规划 爬楼梯">
+      <created>1573879594494</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1573879594494</updated>
+    </task>
+    <task id="LOCAL-00065" summary="120，动态规划，从下往上，有一个数组记录最底层的路径和，每次取最小，十字形，所以最好返回数组第0个即可。">
+      <created>1573891127681</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1573891127681</updated>
+    </task>
+    <task id="LOCAL-00066" summary="827  最大岛屿，动态规划，给每个岛屿涂色，再进行试探性的填海，相加，看哪两个岛屿加起来面积最大">
+      <created>1573915885590</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1573915885590</updated>
+    </task>
+    <task id="LOCAL-00067" summary="5265没解出来，&#10;279 使用队列，每次重新使用队列里面的值，count都要加1，发现新值没有使用，都加入队列">
+      <created>1573965170651</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1573965170651</updated>
+    </task>
+    <task id="LOCAL-00068" summary="300 最长上升子序列，方法一：动态规划；方法二：额外数组放子序列+二分查找">
+      <created>1573999916915</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1573999916915</updated>
+    </task>
+    <task id="LOCAL-00069" summary="这样写，提高了效率： if(!deads.contains(nextWord) &amp;&amp; visited.add(nextWord))">
+      <created>1574493283104</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1574493283105</updated>
+    </task>
+    <task id="LOCAL-00070" summary="695  深度优先遍历，加标记">
+      <created>1574496946827</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1574496946827</updated>
+    </task>
+    <task id="LOCAL-00071" summary="200 先染色，再处理">
+      <created>1574504272378</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1574504272378</updated>
+    </task>
+    <task id="LOCAL-00072" summary="547  朋友圈  答案好像不太对啊，但是竟然过了">
+      <created>1574514879634</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1574514879634</updated>
+    </task>
+    <task id="LOCAL-00073" summary="547  朋友圈的理解了，首先肯定是对称矩阵，因为人的关系是互相的，1、对角线上肯定都是1，然后再拿对角线去一个一个找关系，看和谁有关系，因为关系是互相的，所以，M[i][j],M[j][i]是一个值，都要赋值。">
+      <created>1574516966856</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1574516966856</updated>
+    </task>
+    <task id="LOCAL-00074" summary="1">
+      <created>1574527632745</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1574527632745</updated>
+    </task>
+    <task id="LOCAL-00075" summary="841 好像用队列快了  一点点">
+      <created>1574569076141</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1574569076141</updated>
+    </task>
+    <task id="LOCAL-00076" summary="542广度优先队列，满足条件就返回，使用队列实现">
+      <created>1574572484679</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1574572484679</updated>
+    </task>
+    <task id="LOCAL-00077" summary="934 使用数组实现  上下左右  可以提高效率，这是为什么呢？手写不一样的吗？">
+      <created>1574578762507</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1574578762507</updated>
+    </task>
+    <task id="LOCAL-00078" summary="17 回溯算法，与递归有点类似&#10;802 找安全点，有点技巧吧">
+      <created>1575711984017</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1575711984018</updated>
+    </task>
+    <task id="LOCAL-00079" summary="22 生成括号：&#10;法1：回溯算法，利用dfs&#10;法2：层次遍历，使用队列&#10;法3：动态规划，d[i],公式明白，没太理解循环取str1,str2那块">
+      <created>1575725508931</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1575725508931</updated>
+    </task>
+    <task id="LOCAL-00080" summary="301删除无效括号，理解3，4成吧">
+      <created>1576899126584</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1576899126584</updated>
+    </task>
+    <task id="LOCAL-00081" summary="784典型，简单的回溯">
+      <created>1576899948851</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1576899948851</updated>
+    </task>
+    <task id="LOCAL-00082" summary="39也是比较经典的回溯算法">
+      <created>1576904003070</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1576904003070</updated>
+    </task>
+    <task id="LOCAL-00083" summary="40题和39题类似，也是排序，回溯，剪枝">
+      <created>1576905780071</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1576905780071</updated>
+    </task>
+    <task id="LOCAL-00084" summary="39,40,216类似，回溯算法">
+      <created>1576915476586</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1576915476586</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="450361000" />
+    <option name="totallyTimeSpent" value="546820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -854,9 +880,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="561" y="41" width="1440" height="814" extended-state="0" />
+    <frame x="473" y="23" width="1440" height="814" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16595136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -864,14 +890,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.10082873" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.084487535" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25069252" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.14127424" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2132964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36980608" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921812" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.17590028" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.22375691" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.32921812" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50214595" side_tool="true" weight="0.40877914" />
@@ -950,32 +976,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="链表完成" />
-    <MESSAGE value="二分查找" />
-    <MESSAGE value="搜索旋转排序数组" />
-    <MESSAGE value="二分查找_寻找峰值" />
-    <MESSAGE value="栈，完全平方" />
-    <MESSAGE value="hash" />
-    <MESSAGE value="二叉树，687，较有意思的一道题" />
-    <MESSAGE value="真不敢想象自己竟然写出来  介个啦啦啦啦" />
-    <MESSAGE value="二叉树,递归,全局变量" />
-    <MESSAGE value="二叉树" />
-    <MESSAGE value="337 题意不明白，好像是动态规划，后续再看&#10;112 有点脑筋急转弯的感觉 没整出来" />
-    <MESSAGE value="二叉搜索树（二叉查找树、二叉排序树、BST）的中序遍历就是其所有节点的val按照升序排列" />
-    <MESSAGE value="层次遍历，需要使用 队列，队列使用 linkedList" />
-    <MESSAGE value="list添加默认是添加到尾部，list.add(0,value),添加到头部" />
-    <MESSAGE value="513依旧是层次遍历，比较有点意思啦" />
-    <MESSAGE value="n叉树，层次遍历，使用队列；后序遍历，使用递归" />
-    <MESSAGE value="590 栈实现后序遍历" />
-    <MESSAGE value="987  竖直遍历也是分层，使用队列，Comparator这个排序。Comparator真是太好使了" />
-    <MESSAGE value="297  二叉树的序列化，反序列化，自测过了，leecode提交不过，不知道为什么" />
-    <MESSAGE value="二叉树的公共祖先" />
-    <MESSAGE value="剪枝，后续遍历" />
-    <MESSAGE value="二叉树搜索树" />
-    <MESSAGE value="109题，快慢指针找到中间的root，切断连接，再递归" />
     <MESSAGE value="二叉搜索树，中序遍历是有序的" />
+    <MESSAGE value="208字典树，意思对了，测试用例没过，懒得写了，先这样" />
+    <MESSAGE value="785图不太好理解，理解了7分熟的样仔" />
+    <MESSAGE value="图133，不太清楚题意，貌似是复制了一张图出来，哈哈" />
+    <MESSAGE value="70动态规划 爬楼梯" />
+    <MESSAGE value="120，动态规划，从下往上，有一个数组记录最底层的路径和，每次取最小，十字形，所以最好返回数组第0个即可。" />
+    <MESSAGE value="827  最大岛屿，动态规划，给每个岛屿涂色，再进行试探性的填海，相加，看哪两个岛屿加起来面积最大" />
+    <MESSAGE value="5265没解出来，&#10;279 使用队列，每次重新使用队列里面的值，count都要加1，发现新值没有使用，都加入队列" />
+    <MESSAGE value="300 最长上升子序列，方法一：动态规划；方法二：额外数组放子序列+二分查找" />
+    <MESSAGE value="这样写，提高了效率： if(!deads.contains(nextWord) &amp;&amp; visited.add(nextWord))" />
+    <MESSAGE value="695  深度优先遍历，加标记" />
+    <MESSAGE value="200 先染色，再处理" />
+    <MESSAGE value="547  朋友圈  答案好像不太对啊，但是竟然过了" />
+    <MESSAGE value="547  朋友圈的理解了，首先肯定是对称矩阵，因为人的关系是互相的，1、对角线上肯定都是1，然后再拿对角线去一个一个找关系，看和谁有关系，因为关系是互相的，所以，M[i][j],M[j][i]是一个值，都要赋值。" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="841 好像用队列快了  一点点" />
+    <MESSAGE value="542广度优先队列，满足条件就返回，使用队列实现" />
+    <MESSAGE value="934 使用数组实现  上下左右  可以提高效率，这是为什么呢？手写不一样的吗？" />
+    <MESSAGE value="17 回溯算法，与递归有点类似&#10;802 找安全点，有点技巧吧" />
+    <MESSAGE value="22 生成括号：&#10;法1：回溯算法，利用dfs&#10;法2：层次遍历，使用队列&#10;法3：动态规划，d[i],公式明白，没太理解循环取str1,str2那块" />
+    <MESSAGE value="301删除无效括号，理解3，4成吧" />
+    <MESSAGE value="784典型，简单的回溯" />
+    <MESSAGE value="39也是比较经典的回溯算法" />
+    <MESSAGE value="40题和39题类似，也是排序，回溯，剪枝" />
+    <MESSAGE value="39,40,216类似，回溯算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="39,40,216类似，回溯算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1016,417 +1042,65 @@
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/letterCombinations_17/Solution.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>node[i]</expression-string>
+        <expression-string>c - '0'</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>root.right.val &lt; last</expression-string>
+        <expression-string>G[i]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>root.left.val &gt; last</expression-string>
+        <expression-string>modChar=='9'?'0':(char)(modChar+1)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>treeList.get(0) .equals(&quot;null&quot;)</expression-string>
+        <expression-string>(int) Math.sqrt(n)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>treeList.get(0) == &quot;null&quot;</expression-string>
+        <expression-string>triangle[i][j]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>minDepth(root)</expression-string>
+        <expression-string>triangle[i].length</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>map.containsKey(s.charAt(i))</expression-string>
+        <expression-string>min[j]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>searche(nums,target)</expression-string>
+        <expression-string>Math.min(min[j],min[j+1])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>map.get(s.charAt(i))</expression-string>
+        <expression-string>graph[i]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/isSubtree_572/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/isSymmetric_101/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/hasPathSum_112/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/isUnivalTree_965/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/kthSmallest_230/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/averageOfLevels_637/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/leafSimilar_872/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/levelOrder_102/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/findSecondMinimumValue_671/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/levelOrderBottom_107/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/findBottomLeftValue_513/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/pathSum_666/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/pathSum_113/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/postorder_590/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/postorder_590/Solution02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/levelOrder_429/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/maxDepth_104/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/verticalTraversal_987/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1280#1287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
-          <folding>
-            <element signature="e#5400#5401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/serialize_297/Codec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#929#937#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/preOrderTraversal_144/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/lowestCommonAncestor_236/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/lowestCommonAncestor_235/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/pruneTree_814/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/binaryTree/binaryTreePaths_257/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/findMode_501/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/getMinimumDifference_530/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/convertBST_538/Solution02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/findTarget_653/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/linkedList/mergeKLists_23/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/linkedList/partition_86/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="19" column="21" selection-start-line="6" selection-start-column="8" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/isValidBST_98/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/searchBST_700/Solution02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/insertIntoBST_701/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/searchBST_700/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="28" selection-start-line="6" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/searchTree/deleteNode_450/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1469,7 +1143,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/trie/Trie.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/trie_208/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
@@ -1480,7 +1154,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/trie/TrieNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/trie_208/TrieNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
@@ -1491,6 +1165,382 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="75" column="40" lean-forward="true" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/trie_208/mapSum_677/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/arrayLearn/moveZero_283/Solution02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/isBipartite_785/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/cloneGraph_133/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/climbStairs_70/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/climbStairs_70/Solution02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/minimumTotal_120/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/maxProduct_152/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/largestIsland_827/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/maxSumDivThree_5265/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/numSquares_279/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/numSquares_279/Solution02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/lengthOfLIS_300/Solution02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/lengthOfLIS_300/Solution01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/dynamicPro/openLock_752/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/maxAreaOfIsland_695/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/solve_130/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/numIslands_200/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1379">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/findCircleNum_547/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/findCircleNum_547/Solution02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/pacificAtlantic_417/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/pacificAtlantic_417/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/canVisitAllRooms_841/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/canVisitAllRooms_841/Solution02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/mysqlD/MysqlDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/updateMatrix_542/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/shortestBridge_934/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="101" column="52" lean-forward="true" selection-start-line="101" selection-start-column="52" selection-end-line="101" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/shortestBridge_934/Solution02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/eventualSafeNodes_802/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/letterCombinations_17/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/bfsAndDfs/letterCombinations_17/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/generateParenthesis_22/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/generateParenthesis_22/Solution02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/generateParenthesis_22/Solution03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/removeInvalidParentheses_301/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/letterCasePermutation_784/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/combinationSum_39/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/combinationSum2_40/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/combinationSum3_216/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/addOperators_282/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lqf/learn/leetCode/backTrack/subsets_78/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
