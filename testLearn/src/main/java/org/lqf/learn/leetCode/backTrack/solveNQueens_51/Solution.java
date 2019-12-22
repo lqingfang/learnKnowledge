@@ -21,6 +21,7 @@ public class Solution {
     /**
      * i表示第几行
      * 只有集齐了n行，再加入结果集中
+     *
     */
     private static void queen(int n, boolean[] cols, boolean[] left, boolean[] right, StringBuilder sb, int i) {
         if(ans.size() == n) {
