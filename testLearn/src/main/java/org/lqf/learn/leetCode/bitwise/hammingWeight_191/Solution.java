@@ -1,4 +1,4 @@
-package org.lqf.learn.leetCode.dynamic.bitwise.hammingWeight_191;
+package org.lqf.learn.leetCode.bitwise.hammingWeight_191;
 
 public class Solution {
     public static void main(String[] args) {

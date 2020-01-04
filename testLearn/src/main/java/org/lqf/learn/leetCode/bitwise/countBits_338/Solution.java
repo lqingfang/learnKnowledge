@@ -1,4 +1,4 @@
-package org.lqf.learn.leetCode.dynamic.bitwise.countBits_338;
+package org.lqf.learn.leetCode.bitwise.countBits_338;
 
 public class Solution {
     public static void main(String[] args) {

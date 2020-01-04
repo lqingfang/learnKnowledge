@@ -1,4 +1,4 @@
-package org.lqf.learn.leetCode.dynamic.bitwise.isPowerOfTwo_231;
+package org.lqf.learn.leetCode.bitwise.isPowerOfTwo_231;
 
 public class Solution {
     public static void main(String[] args) {
