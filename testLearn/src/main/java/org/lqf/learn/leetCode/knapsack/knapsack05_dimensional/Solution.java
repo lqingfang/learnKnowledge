@@ -1,4 +1,4 @@
-package org.lqf.learn.leetCode.knapsack.dimensional;
+package org.lqf.learn.leetCode.knapsack.knapsack05_dimensional;
 
 /**
  * 二维费用的背包问题
@@ -21,7 +21,7 @@ public class Solution {
         int[] v = new int[] {1,2,3,4};
         int[] m = new int[] {2,4,4,5};
         int[] w = new int[] {3,4,5,6};
-        System.out.println(dimensional(N,V,M,v,m,w));
+        System.out.println(dimensional02(N,V,M,v,m,w));
     }
 
     /**
@@ -64,10 +64,10 @@ public class Solution {
         int[][] dp = new int[V+1][M+1];
         dp[0][0] = 0;
         for(int i=1;i<N+1;i++){
-            for(int j=1;j<V+1;j++) {
+            for(int j=V;j>0;j--) {
                 for(int k=1;k<M+1;k++) {
                     if(j<v[i-1] || k<m[i-1]) {
-                        dp[j][k] = dp[j][k];
+                        dp[j][k] = dp[j-1][k];
                     } else {
                         dp[j][k] = Math.max(dp[j][k],dp[j-v[i-1]][k-m[i-1]]+w[i-1]);
                     }

@@ -1,5 +1,8 @@
-package org.lqf.learn.leetCode.knapsack.group;
+package org.lqf.learn.leetCode.knapsack.knapsack06_group;
 
+/**
+ * 分组背包问题
+ */
 public class Solution {
     public static void main(String[] args) {
         int N=3,V=5;
