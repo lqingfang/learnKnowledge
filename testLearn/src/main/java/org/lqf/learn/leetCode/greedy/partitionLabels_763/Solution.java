@@ -10,18 +10,23 @@ public class Solution {
     }
     public static List<Integer> partitionLabels(String S) {
         int[] last = new int[26];
-        for (int i = 0; i < S.length(); ++i)
-            last[S.charAt(i) - 'a'] = i;
-
-        int j = 0, anchor = 0;
-        List<Integer> ans = new ArrayList();
-        for (int i = 0; i < S.length(); ++i) {
-            j = Math.max(j, last[S.charAt(i) - 'a']);
-            if (i == j) {
-                ans.add(i - anchor + 1);
-                anchor = i + 1;
+        for(int i=0;i<S.length();i++) {
+            last[S.charAt(i)-'a'] = i;
+        }
+        List<Integer> res = new ArrayList<>();
+        int preIndex = -1;
+        int maxIndex = 0;
+        for(int i=0;i<S.length();i++) {
+            int index = last[S.charAt(i) - 'a'];
+            //扩大区间
+            if(index > maxIndex) {
+                maxIndex = index;
+            }
+            if(i == maxIndex){
+                res.add(maxIndex-preIndex);
+                preIndex = maxIndex;
             }
         }
-        return ans;
+        return res;
     }
 }
