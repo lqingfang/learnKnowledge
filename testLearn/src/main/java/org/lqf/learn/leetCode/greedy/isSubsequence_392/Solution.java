@@ -7,10 +7,10 @@ public class Solution {
         System.out.println(isSubsequence(s,t));
     }
     public static boolean isSubsequence(String s, String t) {
-        if(null ==s ||s.length() ==0) {
+        if(s == null || s.length() == 0) {
             return true;
         }
-        int index =0;
+        int index = 0;
         for(int i=0;i<t.length();i++) {
             if(t.charAt(i) == s.charAt(index)) {
                 index++;
