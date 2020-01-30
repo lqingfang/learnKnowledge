@@ -22,7 +22,6 @@ public class Solution {
 
     private static ArrayList<String> res;
     public static List<String> letterCombinations(String digits) {
-
         res = new ArrayList<String>();
         if(digits.equals(""))
             return res;
@@ -32,18 +31,15 @@ public class Solution {
     }
 
     private static void findCombination(String digits, int index, String s){
-
         if(index == digits.length()){
             res.add(s);
             return;
         }
-
         Character c = digits.charAt(index);
         String letters = letterMap[c - '0'];
         for(int i = 0 ; i < letters.length() ; i ++){
             findCombination(digits, index+1, s + letters.charAt(i));
         }
-
         return;
     }
 }
