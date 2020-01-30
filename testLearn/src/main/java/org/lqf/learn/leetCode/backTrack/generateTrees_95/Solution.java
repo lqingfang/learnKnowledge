@@ -27,8 +27,11 @@ public class Solution {
             return list;
         }
         for(int i=start;i<=end;i++) {
+            //得到所有可能的左子树
             List<TreeNode> left = dfs(start,i-1);
+            //得到所有可能的右子树
             List<TreeNode> right = dfs(i+1,end);
+            //左子树右子树结合
             for (TreeNode leftNode : left) {
                 for (TreeNode rightNode : right) {
                     TreeNode treeNode = new TreeNode(i);
