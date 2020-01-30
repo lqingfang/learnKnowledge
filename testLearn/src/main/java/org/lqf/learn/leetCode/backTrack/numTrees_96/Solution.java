@@ -16,6 +16,7 @@ public class Solution {
         if(start >=end) {
             return 1;
         }
+        //以每一个数字为父节点
         for(int i=start;i<= end;i++) {
             int left = getTrees(start,i-1);
             int right = getTrees(i+1,end);
