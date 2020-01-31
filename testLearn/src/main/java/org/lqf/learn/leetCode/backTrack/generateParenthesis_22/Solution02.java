@@ -5,6 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * 层次遍历_广度优先遍历
+ */
 public class Solution02 {
     public static void main(String[] args) {
         int n = 3;
@@ -43,8 +46,6 @@ public class Solution02 {
             Node node = (Node)queue.poll();
             res.add(node.res);
         }
-
         return res;
     }
-
 }

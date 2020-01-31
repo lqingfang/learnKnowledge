@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * 回溯，利用dfs，深度优先遍历
+ */
 public class Solution {
     public static void main(String[] args) {
         int n = 3;
