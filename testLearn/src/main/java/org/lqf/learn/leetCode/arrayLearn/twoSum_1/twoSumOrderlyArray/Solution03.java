@@ -1,4 +1,4 @@
-package org.lqf.learn.leetCode.arrayLearn.twoSum.twoSumOrderlyArray;
+package org.lqf.learn.leetCode.arrayLearn.twoSum_1.twoSumOrderlyArray;
 
 import java.util.Arrays;
 
