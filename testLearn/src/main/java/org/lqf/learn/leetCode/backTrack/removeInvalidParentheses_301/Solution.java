@@ -5,6 +5,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * 1、如何判断一个字符串是否是合法的括号
+ *     int cnt = 0;
+ *     (   cnt++;
+ *     )   cnt--;
+ *     cnt始终大于等于0，并且最终为0
+ */
 public class Solution {
     public static void main(String[] args) {
         String s= "3(()())(()";
