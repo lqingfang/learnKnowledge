@@ -31,7 +31,7 @@ public class Solution {
             return;
         }
         /**
-         * s 记录该次 dfs的起始位置
+         * s 记录该次 dfs的num起始位置
          * pos是num的位置
          */
         int s = pos;
@@ -53,6 +53,8 @@ public class Solution {
                 break;
             }
             exp[len++] = num[pos++];
+            //每次放运算符是向之前的数字前加，
+            //所以第一次的时候，只是加了开头的数字，没法加，就dfs啦
             if(s==0) {
                 dfs(pos,len,n,n);
                 continue;
