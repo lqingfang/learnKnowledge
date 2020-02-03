@@ -14,7 +14,6 @@ public class Solution02 {
         dfs(S,0,0,0);
         return res;
     }
-
     private static boolean dfs(String s, int index,int first,int second) {
         if(index == s.length() && res.size() >2) {
             return true;
