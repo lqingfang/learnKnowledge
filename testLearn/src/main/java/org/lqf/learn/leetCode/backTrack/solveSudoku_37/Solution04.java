@@ -18,14 +18,13 @@ public class Solution04 {
         solveSudoku(board);
         System.out.println(Arrays.deepToString(board));
     }
+
     static int n = 3;
     static int N = n*n;
     //行
     static int row;
     //列
     static int col;
-
-
     static boolean flag;
     static int[][] rows = new int[N][N+1];
     static int[][] cols = new int[N][N+1];
@@ -45,7 +44,6 @@ public class Solution04 {
     }
 
     private static void dfs(char[][] board,int row,int col) {
-
         if(board[row][col] == '.') {
             for(int i=1;i<=9;i++) {
                 int idx = (row/n)*n + col/n;
@@ -62,7 +60,6 @@ public class Solution04 {
         }else {
             placeNextNumber(board,row,col);
         }
-
     }
 
     private static void placeNextNumber(char[][] board,int row, int col) {
