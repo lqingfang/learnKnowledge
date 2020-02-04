@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 超时
+ * 过了，和数独的区别是   一次循环，且不需要在外面判断，想复杂了
  */
 public class Solution02 {
     public static void main(String[] args) {
