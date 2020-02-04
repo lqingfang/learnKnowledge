@@ -37,14 +37,12 @@ public class Solution02 {
             res.add(new ArrayList<>(list));
             return;
         }
-        for(int i=rows;i<N;i++) {
-            for(int j=col;j<N;j++) {
-                if(canPlaceQueens(i,j)) {
-                    placeQueens(i,j);
-                    dfs(rows+1,col);
-                    removeQueens(i,j);
-                }
-            }
+        for(int j=col;j<N;j++) {
+             if(canPlaceQueens(rows,j)) {
+                  placeQueens(rows,j);
+                  dfs(rows+1,col);
+                  removeQueens(rows,j);
+             }
         }
     }
 
