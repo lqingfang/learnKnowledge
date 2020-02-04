@@ -33,21 +33,13 @@ public class Solution02 {
             res.add(new ArrayList<>(list));
             return;
         }
-        int rowsFlag = 0;
         for(int i=rows;i<N;i++) {
             for(int j=col;j<N;j++) {
                 if(canPlaceQueens(i,j)) {
                     placeQueens(i,j);
-                    placeNextQueens(i+1,col);
-                    if(!flag) {
+                    dfs(rows+1,col);
                         removeQueens(i,j);
                     }
-                }else {
-                    rowsFlag++;
-                }
-            }
-            if(rowsFlag == N) {
-                removeLastQueens();
             }
         }
     }
