@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class Solution02 {
     public static void main(String[] args) {
-        System.out.println(solveNQueens(4));
+        System.out.println(solveNQueens(9));
     }
     static int[] rows;
     static int[] cols;
@@ -16,7 +16,6 @@ public class Solution02 {
     static int N;
     static List<List<String>> res;
     static List<String> list;
-    static boolean flag;
     public static List<List<String>> solveNQueens(int n) {
         rows = new int[n];
         cols = new int[n];
@@ -38,24 +37,10 @@ public class Solution02 {
                 if(canPlaceQueens(i,j)) {
                     placeQueens(i,j);
                     dfs(rows+1,col);
-                        removeQueens(i,j);
-                    }
+                    removeQueens(i,j);
+                }
             }
         }
-    }
-
-    private static void removeLastQueens() {
-        String s = list.get(list.size()-1);
-        int col = 0;
-        for(int k=0;k<s.length();k++) {
-            if(s.charAt(k)=='Q'){
-                col = k;
-                break;
-            }
-        }
-        int row = list.size()-1;
-        removeQueens(row,col);
-        dfs(row,col+1);
     }
 
     private static void removeQueens(int row, int col) {
@@ -63,14 +48,6 @@ public class Solution02 {
         rows[row]--;
         cols[col]--;
         boards[row][col]--;
-    }
-
-    private static void placeNextQueens(int row,int col) {
-        if(row == N){
-            flag = true;
-            return;
-        }
-        dfs(row,col);
     }
 
     private static void placeQueens(int row, int col) {
