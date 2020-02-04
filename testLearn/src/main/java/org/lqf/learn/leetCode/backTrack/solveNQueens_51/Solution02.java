@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 仿照数独，写的，可就是不对啊
+ * 超时
  */
 public class Solution02 {
     public static void main(String[] args) {
-        System.out.println(solveNQueens(9));
+        System.out.println(solveNQueens(4));
     }
     static int[] rows;
     static int[] cols;
@@ -16,6 +16,7 @@ public class Solution02 {
     static int N;
     static List<List<String>> res;
     static List<String> list;
+    static StringBuffer sb;
     public static List<List<String>> solveNQueens(int n) {
         rows = new int[n];
         cols = new int[n];
@@ -23,6 +24,10 @@ public class Solution02 {
         N = n;
         res = new ArrayList<>();
         list = new ArrayList<>();
+        sb = new StringBuffer();
+        for(int i=0;i<N;i++) {
+            sb.append(".");
+        }
         dfs(0,0);
         return res;
     }
@@ -51,15 +56,7 @@ public class Solution02 {
     }
 
     private static void placeQueens(int row, int col) {
-        StringBuffer sb = new StringBuffer();
-        for(int i=0;i<N;i++) {
-            if(i<col || i>col) {
-                sb.append(".");
-            }else {
-                sb.append("Q");
-            }
-        }
-        list.add(sb.toString());
+        list.add(new StringBuilder(sb).replace(col,col+1,"Q").toString());
         rows[row]++;
         cols[col]++;
         boards[row][col]++;
