@@ -1,4 +1,4 @@
-package org.lqf.learn.leetCode.bfsAndDfs.findRedundantConnection_684;
+package org.lqf.learn.leetCode.bfsAndDfs.findRedundantConnection_684.unionSet;
 
 public class UnionFind {
     //表示是谁的parent
