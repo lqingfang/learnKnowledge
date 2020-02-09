@@ -1,32 +1,40 @@
 package org.lqf.learn.leetCode.bfsAndDfs.isBipartite_785;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
+/**
+ * bfs
+ */
 public class Solution {
     public static void main(String[] args) {
         int[][] graph = new int[][]{
-             {1,3}, {0,2}, {1,3}, {0,2}
+                {1,3}, {0,2}, {1,3}, {0,2}
         };
         System.out.println(isBipartite(graph));
     }
     public static boolean isBipartite(int[][] graph) {
-        if(null == graph || graph.length == 0) {
-            return false;
-        }
-        int[] colors = new int[graph.length];
+        int[] color = new int[graph.length];
+        Queue<Integer> queue = new LinkedList<>();
+
         for(int i=0;i<graph.length;i++) {
-            if(!dfs(graph,i,colors,0)) {
-                return false;
-            }
-        }
-        return true;
-    }
-    private static boolean dfs(int[][] graph, int i, int[] colors, int lastColor) {
-        if(colors[i] != 0) {
-            return colors[i] != lastColor;
-        }
-        colors[i] = lastColor ==1?2:1;
-        for(int j=0;j<graph[i].length;j++) {
-            if(!dfs(graph,graph[i][j],colors,colors[i])) {
-                return false;
+            if(graph[i].length >0 && color[i] ==0){
+                queue.offer(i);
+                color[i] = 1;
+                while (!queue.isEmpty()) {
+                    Integer poll = queue.poll();
+                    int setNum = color[poll] == 1?2:1;
+                    for(int j=0;j<graph[poll].length;j++) {
+                        if(color[graph[poll][j]] ==0) {
+                            queue.offer(graph[poll][j]);
+                            color[graph[poll][j]] = setNum;
+                        }else if(color[graph[poll][j]] ==1 && setNum ==2){
+                            return false;
+                        }else if(color[graph[poll][j]] ==2 && setNum ==1){
+                            return false;
+                        }
+                    }
+                }
             }
         }
         return true;
