@@ -24,10 +24,12 @@ public class Solution {
         area = new int[m*n+2];
         int index = 2;
         int maxArea = 0;
+        //对不同区域进行染色
         for(int i=0;i<m;i++) {
             for(int j=0;j<n;j++) {
                 currentArea = 0;
                 dfs(grid,index,i,j);
+                //记录每一块岛屿的面积
                 area[index++] = currentArea;
                 maxArea = Math.max(maxArea,currentArea);
             }
@@ -44,6 +46,7 @@ public class Solution {
     }
 
     private int changeSea(int[][] grid, int i, int j) {
+        //统计周围的都有哪些颜色
         Set<Integer> set = new HashSet();
         int areaSum = 1;
         if(i-1>=0) {
