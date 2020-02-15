@@ -23,7 +23,7 @@ public class Solution02 {
                     for(int i=0;i<L;i++) {
                         String newWord = word.substring(0,i)+"*"+word.substring(i+1,L);
                         List<String> list = allComboDict.getOrDefault(newWord, new ArrayList<>());
-                        list.add(newWord);
+                        list.add(word);
                         allComboDict.put(newWord,list);
                     }
                 }
@@ -40,48 +40,16 @@ public class Solution02 {
         visitedEnd.put(endWord,1);
         
         while (!Q_begin.isEmpty() && !Q_end.isEmpty()) {
-            int ans = visitWordNode(Q_begin,visitedBegin,visitedEnd);
+            int ans = visited(Q_begin,visitedBegin,visitedEnd);
             if(ans >-1) {
                 return ans;
             }
-            ans = visitWordNode(Q_end,visitedEnd,visitedBegin);
+            ans = visited(Q_end,visitedEnd,visitedBegin);
             if(ans >-1) {
                 return ans;
             }
         }
         return 0;
-    }
-
-    private static int visitWordNode(
-            Queue<Pair<String, Integer>> Q,
-            HashMap<String, Integer> visited,
-            HashMap<String, Integer> othersVisited) {
-        Pair<String, Integer> node = Q.remove();
-        String word = node.getKey();
-        int level = node.getValue();
-
-        for (int i = 0; i < L; i++) {
-
-            // Intermediate words for current word
-            String newWord = word.substring(0, i) + '*' + word.substring(i + 1, L);
-
-            // Next states are all the words which share the same intermediate state.
-            for (String adjacentWord : allComboDict.getOrDefault(newWord, new ArrayList<String>())) {
-                // If at any point if we find what we are looking for
-                // i.e. the end word - we can return with the answer.
-                if (othersVisited.containsKey(adjacentWord)) {
-                    return level + othersVisited.get(adjacentWord);
-                }
-
-                if (!visited.containsKey(adjacentWord)) {
-
-                    // Save the level as the value of the dictionary, to save number of hops.
-                    visited.put(adjacentWord, level + 1);
-                    Q.add(new Pair(adjacentWord, level + 1));
-                }
-            }
-        }
-        return -1;
     }
     private static int visited(Queue<Pair<String, Integer>> queue_start, Map<String, Integer> startMap, Map<String, Integer> endMap) {
         Pair<String, Integer> node = queue_start.remove();
