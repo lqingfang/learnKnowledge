@@ -3,7 +3,8 @@ package org.lqf.learn.leetCode.bfsAndDfs.findLadders_126;
 import java.util.*;
 
 /**
- *
+ *  每一层的单词个数是相同的，如果这一层有一个答案，则不必向下一层走
+ *  因为向下一层，单词就会多一个。就不是最短转换序列了
  */
 public class Solution {
     public static void main(String[] args) {
