@@ -32,32 +32,31 @@ public class Solution {
         Queue<List<String>> queue = new LinkedList<>();
         queue.add(Arrays.asList(beginWord));
 
-        Set<String> visitedSet = new HashSet<>();
-        visitedSet.add(beginWord);
-        int level = Integer.MAX_VALUE;
-        while (!queue.isEmpty()) {
-            List<String> path = queue.remove();
-            String key = path.get(path.size()-1);
-            Set<String> subVisited = new HashSet<>();
-            subVisited.addAll(path);
-            for(int i=0;i<L;i++) {
-                String newWord = key.substring(0,i)+"*"+key.substring(i+1,L);
-                List<String> maplist = map.getOrDefault(newWord, new ArrayList<>());
-                for(String str:maplist) {
-                    if(!subVisited.contains(str)) {
-                        List<String> list = new ArrayList<>(path);
-                        list.add(str);
-                        if(str.equals(endWord)) {
-                            if(list.size() <= level) {
-                                level = list.size();
+        boolean flag = false;
+        while (!queue.isEmpty() && !flag) {
+            int size = queue.size();
+            for(int k=0;k<size;k++) {
+                List<String> path = queue.remove();
+                String key = path.get(path.size()-1);
+                Set<String> subVisited = new HashSet<>();
+                subVisited.addAll(path);
+                for(int i=0;i<L;i++) {
+                    String newWord = key.substring(0,i)+"*"+key.substring(i+1,L);
+                    List<String> maplist = map.getOrDefault(newWord, new ArrayList<>());
+                    for(String str:maplist) {
+                        if(!subVisited.contains(str)) {
+                            List<String> list = new ArrayList<>(path);
+                            list.add(str);
+                            if(str.equals(endWord)) {
+                                flag = true;
                                 res.add(list);
+                                break;
+                            }else {
+                                subVisited.add(str);
                             }
-                            break;
-                        }else {
-                            subVisited.add(str);
-                        }
-                        if(level == Integer.MAX_VALUE) {
-                            queue.add(list);
+                            if(!flag) {
+                                queue.add(list);
+                            }
                         }
                     }
                 }
