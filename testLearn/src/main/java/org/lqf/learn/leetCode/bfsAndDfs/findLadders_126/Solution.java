@@ -3,7 +3,7 @@ package org.lqf.learn.leetCode.bfsAndDfs.findLadders_126;
 import java.util.*;
 
 /**
- *  预期结果应该是：[["red","ted","tad","tax"],["red","ted","tex","tax"],["red","rex","tex","tax"]]
+ *
  */
 public class Solution {
     public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class Solution {
 
         Set<String> visitedSet = new HashSet<>();
         visitedSet.add(beginWord);
-
+        int level = Integer.MAX_VALUE;
         while (!queue.isEmpty()) {
             List<String> path = queue.remove();
             String key = path.get(path.size()-1);
@@ -48,26 +48,21 @@ public class Solution {
                         List<String> list = new ArrayList<>(path);
                         list.add(str);
                         if(str.equals(endWord)) {
-                            res.add(list);
+                            if(list.size() <= level) {
+                                level = list.size();
+                                res.add(list);
+                            }
                             break;
                         }else {
-                            queue.add(list);
                             subVisited.add(str);
+                        }
+                        if(level == Integer.MAX_VALUE) {
+                            queue.add(list);
                         }
                     }
                 }
             }
         }
-        int minLength = Integer.MAX_VALUE;
-        for(int i=0;i<res.size();i++) {
-            minLength = Math.min(minLength,res.get(i).size());
-        }
-        List<List<String>> result = new ArrayList<>();
-        for(int i=0;i<res.size();i++) {
-            if(res.get(i).size()== minLength) {
-                result.add(res.get(i));
-            }
-        }
-        return result;
+        return res;
     }
 }
