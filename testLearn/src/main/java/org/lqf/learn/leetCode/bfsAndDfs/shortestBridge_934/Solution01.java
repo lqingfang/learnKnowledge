@@ -38,6 +38,7 @@ public class Solution01 {
                     break;
                 }
             }
+            //两层循环，一个break行不通
             if(find) {
                 break;
             }
