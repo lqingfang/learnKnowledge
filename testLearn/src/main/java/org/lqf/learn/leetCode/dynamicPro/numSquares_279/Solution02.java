@@ -3,8 +3,8 @@ package org.lqf.learn.leetCode.dynamicPro.numSquares_279;
 public class Solution02 {
     public static void main(String[] args) {
         Solution02 solution = new Solution02();
-//        System.out.println(solution.numSquares(12));
-//        System.out.println(solution.numSquares(13));
+//        System.out.println(trie_208.numSquares(12));
+//        System.out.println(trie_208.numSquares(13));
         System.out.println(solution.numSquares(14));
     }
 

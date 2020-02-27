@@ -8,8 +8,8 @@ import java.util.Queue;
 public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
-//        System.out.println(solution.numSquares(12));
-//        System.out.println(solution.numSquares(13));
+//        System.out.println(trie_208.numSquares(12));
+//        System.out.println(trie_208.numSquares(13));
         System.out.println(solution.numSquares(14));
     }
 
