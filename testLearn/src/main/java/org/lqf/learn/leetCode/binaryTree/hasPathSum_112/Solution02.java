@@ -2,6 +2,9 @@ package org.lqf.learn.leetCode.binaryTree.hasPathSum_112;
 
 import org.lqf.learn.leetCode.binaryTree.TreeNode;
 
+/**
+ * dfs
+ */
 public class Solution02 {
     public static void main(String[] args) {
 
