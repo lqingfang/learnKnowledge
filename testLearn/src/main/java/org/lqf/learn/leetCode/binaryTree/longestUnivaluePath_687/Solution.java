@@ -5,20 +5,14 @@ import org.lqf.learn.leetCode.binaryTree.TreeNode;
 public class Solution {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(5);
-        TreeNode node1 = new TreeNode(4);
-        TreeNode node2 = new TreeNode(5);
-        TreeNode node3 = new TreeNode(4);
+        TreeNode node1 = new TreeNode(5);
+        TreeNode node2 = new TreeNode(4);
+        TreeNode node3 = new TreeNode(5);
         TreeNode node4 = new TreeNode(4);
-        TreeNode node5 = new TreeNode(4);
-        TreeNode node6 = new TreeNode(4);
-        TreeNode node7 = new TreeNode(4);
         root.left = node1;
         root.right = node2;
         node1.left = node3;
-        node1.right = node4;
-        node3.left = node5;
-        node2.left = node6;
-        node6.left = node7;
+        node2.right = node4;
         System.out.println(longestUnivaluePath(root));
     }
 
@@ -36,6 +30,7 @@ public class Solution {
        int right = arrowLength(node.right);
 
        //leftLength 记录的是 和当前跟节点相同时的，长度
+        //如果不相等，则为0
        int leftLength = 0;
        if(null != node.left && node.val == node.left.val) {
            leftLength = left+1;
@@ -46,6 +41,7 @@ public class Solution {
        }
        //ans记录的是当前最大
        ans = Math.max(ans,leftLength+rightLength);
+       //只能够使用单边
        return Math.max(leftLength,rightLength);
     }
 }
