@@ -1,5 +1,8 @@
 package org.lqf.learn.leetCode.recycle.decodeString_394;
 
+/**
+ * 递归
+ */
 public class Solution02 {
     public static void main(String[] args) {
         System.out.println(decodeString("3[a2[c]]"));
