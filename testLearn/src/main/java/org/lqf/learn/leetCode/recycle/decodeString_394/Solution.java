@@ -2,6 +2,9 @@ package org.lqf.learn.leetCode.recycle.decodeString_394;
 
 import java.util.Stack;
 
+/**
+ * 栈，注意一下 currentStr 的技巧
+ */
 public class Solution {
     public static void main(String[] args) {
         System.out.println(decodeString("2[c2[ab]]"));
