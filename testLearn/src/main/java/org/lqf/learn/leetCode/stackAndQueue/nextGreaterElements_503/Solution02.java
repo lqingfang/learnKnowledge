@@ -14,14 +14,25 @@ public class Solution02 {
     }
 
     public static int[] nextGreaterElements(int[] nums) {
-        int[] res = new int[nums.length];
-        Stack<Integer> stack = new Stack<>();
-        for (int i = 2 * nums.length - 1; i >= 0; --i) {
-            while (!stack.empty() && nums[stack.peek()] <= nums[i % nums.length]) {
-                stack.pop();
+        Stack<Integer> valueStack = new Stack<>();
+        Stack<Integer> indexStack = new Stack<>();
+        int len = nums.length;
+        int[] res = new int[len];
+        Arrays.fill(res,-1);
+        for(int j=0;j<len*2-1;j++) {
+            int i = j% len;
+            if(valueStack.isEmpty()) {
+                valueStack.add(nums[i]);
+                indexStack.add(i);
+            }else {
+                while (!valueStack.isEmpty() && valueStack.peek() < nums[i]) {
+                    valueStack.pop();
+                    int index = indexStack.pop();
+                    res[index] = nums[i];
+                }
+                valueStack.add(nums[i]);
+                indexStack.add(i);
             }
-            res[i % nums.length] = stack.empty() ? -1 : nums[stack.peek()];
-            stack.push(i % nums.length);
         }
         return res;
     }
