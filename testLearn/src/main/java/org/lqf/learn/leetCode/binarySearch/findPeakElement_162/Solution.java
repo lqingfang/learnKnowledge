@@ -2,7 +2,8 @@ package org.lqf.learn.leetCode.binarySearch.findPeakElement_162;
 
 public class Solution {
     public static void main(String[] args) {
-        int[] A = {4,2,1,0};
+        //int[] A = {1,2,1,3,5,6,4};
+        int[] A = {1,2,3,4,3,2};
         System.out.println(peakIndexInMountainArray(A));
     }
     private static int peakIndexInMountainArray(int[] nums) {
