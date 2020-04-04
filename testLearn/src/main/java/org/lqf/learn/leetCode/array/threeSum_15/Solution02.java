@@ -1,4 +1,4 @@
-package org.lqf.learn.leetCode.array.threeSum;
+package org.lqf.learn.leetCode.array.threeSum_15;
 
 import java.util.*;
 /*

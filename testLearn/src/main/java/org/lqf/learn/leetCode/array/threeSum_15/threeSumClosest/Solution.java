@@ -1,4 +1,4 @@
-package org.lqf.learn.leetCode.array.threeSum.threeSumClosest;
+package org.lqf.learn.leetCode.array.threeSum_15.threeSumClosest;
 
 import java.util.Arrays;
 
