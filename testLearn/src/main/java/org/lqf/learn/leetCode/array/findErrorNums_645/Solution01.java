@@ -13,7 +13,7 @@ public class Solution01 {
         for(int i=0;i<nums.length;i++) {
             count[nums[i]]++;
         }
-        for(int i=0;i<=nums.length;i++) {
+        for(int i=1;i<=nums.length;i++) {
             if(count[i]==0) {
                 res[1]= i;
             }
