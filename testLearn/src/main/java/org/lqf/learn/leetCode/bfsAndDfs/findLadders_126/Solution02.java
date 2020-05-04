@@ -6,7 +6,7 @@ public class Solution02 {
     public static void main(String[] args) {
         String beginWord = "hit";
         String endWord = "cog";
-        List<String> list = Arrays.asList("hot","dot","dog","lot","log");
+        List<String> list = Arrays.asList("hot","dot","dog","lot","log","cog");
         List<String> wordList = new ArrayList<>(list);
         System.out.println(findLadders(beginWord,endWord,wordList));
     }

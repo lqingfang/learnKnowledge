@@ -17,6 +17,7 @@ public class Solution {
                 return o1[1] - o2[1];
             }
         });
+        System.out.println(Arrays.deepToString(people));
         List<int[]> list = new ArrayList<>();
         for(int[] p:people) {
             list.add(p[1],p);

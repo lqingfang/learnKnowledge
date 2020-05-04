@@ -23,7 +23,8 @@ public class Solution {
         char[] four = {'A','C','G','T'};
         while (!queue.isEmpty()) {
             level++;
-            for(int count = queue.size(); count > 0; --count) {
+            int size = queue.size();
+            for(int count = size; count > 0; --count) {
                 char[] cur = queue.poll().toCharArray();
                 for(int i=0;i<l;i++) {
                     char oldChar = cur[i];

@@ -1,7 +1,10 @@
 package org.lqf.learn.leetCode.binarySearch.firstBadVersion_278;
 
 public class Solution02 {
-    public int firstBadVersion(int n) {
+    public static void main(String[] args) {
+        System.out.println(firstBadVersion(5));
+    }
+    public static int firstBadVersion(int n) {
         int left = 1;
         int right = n;
         while (left < right) {
@@ -20,7 +23,10 @@ public class Solution02 {
         }
         return left;
     }
-    private boolean isBadVersion(int mid) {
-        return true;
+    private static boolean isBadVersion(int mid) {
+        if(mid >=4) {
+            return true;
+        }
+        return false;
     }
 }

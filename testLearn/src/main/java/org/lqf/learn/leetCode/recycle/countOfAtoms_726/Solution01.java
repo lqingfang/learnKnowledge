@@ -9,7 +9,7 @@ import java.util.TreeMap;
  */
 public class Solution01 {
     public static void main(String[] args) {
-        System.out.println(countOfAtoms("K4(ON(SO3)2)2"));
+        System.out.println(countOfAtoms("K4(S)2"));
     }
 
     public static String countOfAtoms(String formula) {
@@ -26,6 +26,7 @@ public class Solution01 {
     }
 
     static int i=0;
+    //K4(S)2
     private static Map<String, Integer> parse(String formula) {
         Map<String,Integer> countMap = new TreeMap<>();
         int len = formula.length();

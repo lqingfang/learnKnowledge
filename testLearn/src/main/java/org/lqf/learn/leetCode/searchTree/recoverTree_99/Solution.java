@@ -16,7 +16,7 @@ public class Solution {
         list = new ArrayList<>();
         dfs(root);
         int x=-1,y=-1;
-        for(int i=0;i<list.size()-1;i++) {
+        for(int i=0;i <list.size()-1;i++) {
             if(list.get(i) > list.get(i+1)) {
                 y = list.get(i+1);
                 if(x != -1) {

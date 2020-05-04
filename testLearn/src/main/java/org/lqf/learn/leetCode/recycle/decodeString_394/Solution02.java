@@ -5,7 +5,7 @@ package org.lqf.learn.leetCode.recycle.decodeString_394;
  */
 public class Solution02 {
     public static void main(String[] args) {
-        System.out.println(decodeString("3[a2[c]]"));
+        System.out.println(decodeString("3[a]"));
     }
 
     static int i = 0;

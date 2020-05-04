@@ -22,7 +22,7 @@ public class Solution {
 //        node3.left = node4;
         //node4.left = node5;
         root.right = node1;
-//        node1.left = node2;
+        node1.left = node2;
 //        node1.left = node3;
 //        node2.left = node4;
 //        node2.right = node5;

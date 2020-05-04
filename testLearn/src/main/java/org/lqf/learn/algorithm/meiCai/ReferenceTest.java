@@ -4,11 +4,13 @@ package org.lqf.learn.algorithm.meiCai;
 public class ReferenceTest {
     public static void main(String[] args) {
         int a = 10;
-        test(a);
-        System.out.println(a);
+        String str = "hello";
+        test(a,str);
+        System.out.println(a+":"+str);
     }
 
-    private static void test(int a) {
+    private static void test(int a,String str) {
+        str = "hi";
         a = 100;
     }
 }

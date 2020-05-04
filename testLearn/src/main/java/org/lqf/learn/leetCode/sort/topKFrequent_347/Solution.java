@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Solution {
     public static void main(String[] args) {
-        int[] nums = {1,1,1,2,2,3};
+        int[] nums = {4,4,4,2,2,3};
         System.out.println(topKFrequent(nums,2));
     }
     public static List<Integer> topKFrequent(int[] nums, int k) {

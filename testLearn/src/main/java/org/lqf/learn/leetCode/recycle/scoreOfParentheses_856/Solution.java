@@ -2,7 +2,7 @@ package org.lqf.learn.leetCode.recycle.scoreOfParentheses_856;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(scoreOfParentheses("(())"));
+        System.out.println(scoreOfParentheses("(()())"));
     }
     public static int scoreOfParentheses(String S) {
         return score(S,0,S.length()-1);

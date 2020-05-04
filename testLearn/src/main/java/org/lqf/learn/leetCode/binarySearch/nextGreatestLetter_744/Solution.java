@@ -2,8 +2,8 @@ package org.lqf.learn.leetCode.binarySearch.nextGreatestLetter_744;
 
 public class Solution {
     public static void main(String[] args) {
-        char[] letters = {'a','c','d'};
-        char target = 'c';
+        char[] letters = {'m','z','c','f','j'};
+        char target = 'n';
         System.out.println(nextGreatestLetter(letters,target));
     }
     public static char nextGreatestLetter(char[] letters, char target) {
