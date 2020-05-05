@@ -38,32 +38,4 @@ public class Solution03 {
         }
         return dp.get(n);
     }
-
-    /**
-     * 还不行这个方法，会有重复的
-     * @param n
-     * @return
-     */
-    public static List<String> generateParenthesis02(int n) {
-        if (n == 0) {
-            return new ArrayList<>();
-        }
-        // 这里 dp 数组我们把它变成列表的样子，方便调用而已
-        List<List<String>> dp = new ArrayList<>(n);
-
-        List<String> dp0 = new ArrayList<>();
-        dp0.add("");
-        dp.add(dp0);
-
-        for (int i = 1; i <= n; i++) {
-            List<String> cur = new ArrayList<>();
-            List<String> list = dp.get(i - 1);
-            for(String str:list) {
-                cur.add("("+str+")");
-                cur.add("()"+str);
-            }
-            dp.add(cur);
-        }
-        return dp.get(n);
-    }
 }

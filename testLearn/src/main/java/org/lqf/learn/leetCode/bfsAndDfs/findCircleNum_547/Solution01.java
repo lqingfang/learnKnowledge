@@ -9,8 +9,8 @@ public class Solution01 {
 //                {1,0,1,1}
 //        };
         int[][] M = new int[][]{
-                {1,1,0},
-                {1,1,0},
+                {1,0,0},
+                {0,1,1},
                 {0,0,1}
         };
         System.out.println(findCircleNum(M));

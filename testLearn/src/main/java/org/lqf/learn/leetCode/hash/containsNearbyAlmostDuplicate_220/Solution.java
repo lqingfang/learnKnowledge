@@ -5,7 +5,7 @@ import java.util.*;
 public class Solution {
     public static void main(String[] args) {
         int[] nums = {2,2};
-        System.out.println(containsNearbyAlmostDuplicate(nums,3,0));
+        System.out.println(containsNearbyAlmostDuplicate3(nums,3,0));
     }
     public static boolean containsNearbyAlmostDuplicate(int[] nums, int k,int t) {
         if(nums== null ||nums.length == 0) {
