@@ -4,7 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Solution01 {
-    public String minWindow(String s, String t) {
+    public static void main(String[] args) {
+        String s = "ADOBECODEBANC";
+        String t = "ABC";
+        System.out.println(minWindow(s,t));
+    }
+    public static String minWindow(String s, String t) {
         int s_len = s.length();
         int t_len = t.length();
 

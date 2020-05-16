@@ -4,8 +4,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Solution {
+    public static void main(String[] args) {
+        String str = "987 w";
+        System.out.println(myAtoi(str));
+    }
     final static Pattern pattern = Pattern.compile("[-+]??[0-9]++");
-    public int myAtoi(String str) {
+    public static int myAtoi(String str) {
         String strTrim = str.trim();
         Matcher matcher = pattern.matcher(strTrim);
         if(matcher.lookingAt()) {

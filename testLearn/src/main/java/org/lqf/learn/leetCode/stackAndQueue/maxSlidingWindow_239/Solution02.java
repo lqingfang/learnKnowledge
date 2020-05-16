@@ -3,12 +3,16 @@ package org.lqf.learn.leetCode.stackAndQueue.maxSlidingWindow_239;
 import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * 单调递减队列
  */
 public class Solution02 {
+    public static void main(String[] args) {
+        int[] nums = {1,3,1,2,0,5};
+        int k = 3;
+        System.out.println(Arrays.toString(maxSlidingWindow(nums,k)));
+    }
 
     public static int[] maxSlidingWindow(int[] nums, int k) {
         int len = nums.length;
@@ -50,9 +54,5 @@ public class Solution02 {
         }
         return res;
     }
-    public static void main(String[] args) {
-        int[] nums = {1,3,1,2,0,5};
-        int k = 3;
-        System.out.println(Arrays.toString(maxSlidingWindow(nums,k)));
-    }
+
 }

@@ -10,9 +10,10 @@ import java.util.List;
  */
 public class Solution {
     public static void main(String[] args) {
-
+        int[] nums = {1,1,2};
+        System.out.println(permuteUnique(nums));
     }
-    public List<List<Integer>> permuteUnique(int[] nums) {
+    public static List<List<Integer>> permuteUnique(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> res = new ArrayList<>();
         boolean[] visited = new boolean[nums.length];
@@ -20,7 +21,7 @@ public class Solution {
         return res;
     }
 
-    private void dfs(int[] nums, int index, boolean[] visited, List list,List<List<Integer>> res) {
+    private static void dfs(int[] nums, int index, boolean[] visited, List list,List<List<Integer>> res) {
         if(index == nums.length) {
             res.add(new ArrayList<>(list));
             return;

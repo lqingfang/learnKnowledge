@@ -4,10 +4,17 @@ import org.lqf.learn.leetCode.binaryTree.TreeNode;
 
 public class Solution01 {
     public static void main(String[] args) {
-
+        TreeNode root = new TreeNode(3);
+        TreeNode node1 = new TreeNode(3);
+        TreeNode node2 = new TreeNode(3);
+        TreeNode node3 = new TreeNode(3);
+        root.left = node1;
+        root.right = node2;
+        node2.right = node3;
+        System.out.println(longestUnivaluePath(root));
     }
     static int ans;
-    public int longestUnivaluePath(TreeNode root) {
+    public static int longestUnivaluePath(TreeNode root) {
         ans = 0;
         if(root == null) {
             return ans;
@@ -15,7 +22,7 @@ public class Solution01 {
         dfs(root);
         return ans;
     }
-    public int dfs(TreeNode node) {
+    public static int dfs(TreeNode node) {
         if(null == node) {
             return 0;
         }

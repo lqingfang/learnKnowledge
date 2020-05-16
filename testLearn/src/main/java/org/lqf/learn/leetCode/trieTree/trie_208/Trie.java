@@ -1,6 +1,14 @@
 package org.lqf.learn.leetCode.trieTree.trie_208;
 
 public class Trie {
+
+    public static void main(String[] args) {
+        Trie trie = new Trie();
+        trie.insert("apple");
+        trie.insert("abanana");
+        System.out.println("1");
+    }
+
     private TrieNode root;
     public Trie() {
         root = new TrieNode();
@@ -50,10 +58,5 @@ public class Trie {
         return true;
     }
 
-    public static void main(String[] args) {
-        Trie trie = new Trie();
-        trie.insert("apple");
-        trie.insert("abanana");
-        System.out.println("1");
-    }
+
 }

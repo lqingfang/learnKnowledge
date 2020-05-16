@@ -10,15 +10,25 @@ import java.util.List;
  */
 public class Solution01 {
     public static void main(String[] args) {
+        TreeNode root = new TreeNode(0);
+        TreeNode node1 = new TreeNode(1);
+        TreeNode node2 = new TreeNode(2);
+        TreeNode node3 = new TreeNode(3);
+        TreeNode node4 = new TreeNode(4);
+        root.left = node1;
+        root.right = node2;
+        node1.left = node3;
+        node1.right = node4;
 
+        System.out.println(pathSum(root,5));
     }
-    public List<List<Integer>> pathSum(TreeNode root, int sum) {
+    public static List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> res = new ArrayList<>();
         dfs(root,sum,res,new ArrayList<>());
         return res;
     }
 
-    private void dfs(TreeNode root, int sum, List<List<Integer>> res,List<Integer> list) {
+    private static void dfs(TreeNode root, int sum, List<List<Integer>> res,List<Integer> list) {
         if(root == null){
             return;
         }

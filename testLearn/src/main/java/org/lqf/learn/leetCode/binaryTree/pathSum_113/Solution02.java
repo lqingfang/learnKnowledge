@@ -9,22 +9,17 @@ import java.util.*;
  */
 public class Solution02 {
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(1);
-        TreeNode node1 = new TreeNode(-2);
-        TreeNode node2 = new TreeNode(-3);
-        TreeNode node3 = new TreeNode(1);
-        TreeNode node4 = new TreeNode(3);
-        TreeNode node5 = new TreeNode(-2);
-        TreeNode node6 = new TreeNode(-1);
+        TreeNode root = new TreeNode(0);
+        TreeNode node1 = new TreeNode(1);
+        TreeNode node2 = new TreeNode(2);
+        TreeNode node3 = new TreeNode(3);
+        TreeNode node4 = new TreeNode(4);
         root.left = node1;
         root.right = node2;
         node1.left = node3;
         node1.right = node4;
-        node3.left = node6;
-        node2.left = node5;
-        int sum = 2;
-        List<List<Integer>> list = pathSum(root,sum);
-        System.out.println(list);
+
+        System.out.println(pathSum(root,5));
     }
     public static List<List<Integer>> pathSum(TreeNode root, int sum) {
         if(null == root) {
